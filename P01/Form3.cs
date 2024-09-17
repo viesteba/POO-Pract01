@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace P01
 {
     public partial class Form3 : Form
-    {
+    { 
         private int i, j;
         public Form3()
         {
