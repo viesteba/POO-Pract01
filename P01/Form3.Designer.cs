@@ -35,7 +35,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(437, 194);
+            this.button1.Location = new System.Drawing.Point(455, 203);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(437, 124);
+            this.button2.Location = new System.Drawing.Point(455, 153);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(196, 66);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 70);
+            this.button3.Size = new System.Drawing.Size(235, 110);
             this.button3.TabIndex = 2;
             this.button3.Text = "Clic";
             this.button3.UseVisualStyleBackColor = true;
@@ -73,6 +73,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
 
         }
