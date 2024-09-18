@@ -21,8 +21,9 @@ namespace P01
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBoxOptions ms = 
-            MessageBox.Show("Has hecho clic " + i + " veces.", );
+            Form4 f4= new Form4(i);
+            //f4.Show();
+            f4.ShowDialog();
             i = 0;
         }
 
